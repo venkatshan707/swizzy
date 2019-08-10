@@ -7,6 +7,8 @@ import { InitialPageComponent } from './initial-page/initial-page.component';
 import { SwizzyService } from './swizzy.service';
 import { FoodAndResturantsComponent } from './food-and-resturants/food-and-resturants.component';
 import { AppRoutingModule } from './app-routing.module';
+import { LoginComponent } from './login/login.component';
+import { SignupComponent } from './signup/signup.component';
 
 
 
@@ -15,8 +17,12 @@ import { AppRoutingModule } from './app-routing.module';
     AppComponent,
     InitialPageComponent,
 
-    FoodAndResturantsComponent
-   
+    FoodAndResturantsComponent,
+
+    LoginComponent,
+
+    SignupComponent
+
   ],
   imports: [
     BrowserModule,
