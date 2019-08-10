@@ -9,7 +9,7 @@ import { FoodAndResturantsComponent } from './food-and-resturants/food-and-restu
 const r:Routes=[
   {path:'', redirectTo:'/initial-page',pathMatch:'full'},
   {path:'initial-page',component:InitialPageComponent,pathMatch:'full'},
-  {path:'food-and-restaurants',component:FoodAndResturantsComponent, }
+  {path:'food-and-restaurants/:id',component:FoodAndResturantsComponent, }
 
 ]
 @NgModule({

@@ -1,3 +1,9 @@
-<p>
-  food-and-resturants works!
-</p>
+<table border="1px">
+<tr *ngIf="this.enteredRecipe!==undefined">
+  
+  <td >{{this.enteredRecipe.name}}</td>
+
+  <td>{{this.enteredRecipe.price}}</td>
+
+    </tr>
+  </table>
