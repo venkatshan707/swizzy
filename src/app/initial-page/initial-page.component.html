@@ -1,0 +1,15 @@
+
+
+
+	<div >
+		<input #recipe  placeholder="Search your Recipe and restaurants" type="textbox" />
+	 <button   		(click)= " this.getRecipe(recipe.value); recipe.value=''">Search</button>
+	</div>
+	<table border="1px">
+	<tr *ngIf="this.currentRecipe!==undefined">
+	  <td >{{this.currentRecipe.name}}</td>
+
+		<td>{{this.currentRecipe.price}}</td>
+
+	    </tr>
+	  </table>
