@@ -3,7 +3,7 @@
 
 	<div >
 		<input #recipe  placeholder="Search your Recipe and restaurants" type="textbox" />
-	 <button   		(click)= " this.getRecipe(recipe.value); recipe.value=''">Search</button>
+	 <button   		(click)= " this.getRecipe(recipe.value); recipe.value=''"><a routerLink="/food-and-restaurants">Search</a></button>
 	</div>
 	<table border="1px">
 	<tr *ngIf="this.currentRecipe!==undefined">
