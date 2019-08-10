@@ -7,10 +7,12 @@ import { InitialPageComponent } from './initial-page/initial-page.component';
 import { SwizzyService } from './swizzy.service';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
-    InitialPageComponent
+    InitialPageComponent,
+
   ],
   imports: [
     BrowserModule
