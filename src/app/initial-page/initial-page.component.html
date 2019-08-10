@@ -1,9 +1,28 @@
+<div class="logo">
+<img src="assets/Img/download.jpg" />
+</div>
+	<div id="pic">
+		<img src="assets/Img/frontpic.jpeg" width="500px" height="500px">
+	</div>
+	<div id="l1">
+		<button class="button button2">Login</button>
+			<button class="button button1">Sign-Up</button>
+	</div>
+	<br /><br /><br />
+	<!-- <div class="box">
+		<span><input id=box placeholder="Search your Recipe and restaurants" type="textbox" />
+	 <button  id="button" class="w3-button w3-black w3-round-xlarge">Search</button></span>
+	</div> -->
 
 
 
-	<div >
-		<input #recipe  placeholder="Search your Recipe and restaurants" type="textbox" />
-	 <button   		(click)= " this.getRecipe(recipe.value); recipe.value=''"><a routerLink="/food-and-restaurants">Search</a></button>
+
+	
+
+	<div class="box1">
+		<span><input id=box #recipe  placeholder="Search your Recipe and restaurants" type="textbox" />
+	 <button id=button (click)= " this.getRecipe(recipe.value); recipe.value=''"><a routerLink="/food-and-restaurants">Search</a></button></span>
+
 	</div>
 	<table border="1px">
 	<tr *ngIf="this.currentRecipe!==undefined">

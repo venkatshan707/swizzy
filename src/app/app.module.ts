@@ -9,11 +9,14 @@ import { FoodAndResturantsComponent } from './food-and-resturants/food-and-restu
 import { AppRoutingModule } from './app-routing.module';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
     InitialPageComponent,
+
     FoodAndResturantsComponent
+   
   ],
   imports: [
     BrowserModule,
