@@ -14,9 +14,15 @@
 	 <button  id="button" class="w3-button w3-black w3-round-xlarge">Search</button></span>
 	</div> -->
 
+
+
+
+	
+
 	<div class="box1">
 		<span><input id=box #recipe  placeholder="Search your Recipe and restaurants" type="textbox" />
-	 <button id=button (click)= " this.getRecipe(recipe.value); recipe.value=''">Search</button></span>
+	 <button id=button (click)= " this.getRecipe(recipe.value); recipe.value=''"><a routerLink="/food-and-restaurants">Search</a></button></span>
+
 	</div>
 	<table border="1px">
 	<tr *ngIf="this.currentRecipe!==undefined">
