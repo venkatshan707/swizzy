@@ -1,0 +1,82 @@
+img
+		{
+			width:  50px;
+			height: 50px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+			padding-left: 32px;
+			padding-right: 32px;
+		}
+	form
+	{
+		border-color: #ccc;
+		border-width: 1px;
+		background-color:white;
+	    margin-right:auto;
+	    margin-left:auto;
+	    width:600px;
+			}
+	div
+	{
+	  align-self:  center;
+	}
+
+	#InputFieldsContainer
+	{
+		 padding-top:70px;
+      padding-bottom:10px;
+      padding-right:70px;
+      padding-left:70px;
+	}
+	input
+	{
+		font-size: 18px;
+		padding-bottom:12px;
+		border-top: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		border-bottom: 1px solid #ccc;
+	}
+	.controls
+	{
+			  width:100%;
+			  font-size: 18px;
+			  padding-bottom: 12px;
+			  margin-bottom: 36px;
+			  border-top:0;
+			  border-left:0;
+			  border-right: 0;
+			  border-bottom: 1px solid #ccc;
+	}
+
+		#submit
+		{
+		background-color:  #0056ff;
+		padding-top: 12px;
+		padding-bottom:12px;
+		padding-left:24px;
+		padding-right: 24px;
+		font-size: 18px;
+		color: white;
+		border: none;
+		}
+		#social-icons
+				{
+		  width: 50px;
+		  height: 50px;
+		  padding-top:16px;
+		  padding-bottom: 16px;
+		  padding-left:32px;
+		  padding-right: 32px;
+		 background-color: lightblue;
+		  		}
+
+  #icon
+    {
+					   padding-top:16px;
+					   padding-bottom: 16px;
+					   padding-left:32px;
+					   padding-right: 32px;
+					   background-color:lightblue;
+					   text-align:center;
+     }

@@ -61,3 +61,8 @@
   position:relative;
   right:500px;
 }
+a
+{
+  text-decoration: none;
+  color: inherit;
+}
