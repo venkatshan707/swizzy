@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import {ActivatedRoute} from '@angular/router';
 import { SwizzyService } from '../swizzy.service';
 import { Recipe} from '../recipe';
+
 @Component({
   selector: 'app-food-and-resturants',
   templateUrl: './food-and-resturants.component.html',
