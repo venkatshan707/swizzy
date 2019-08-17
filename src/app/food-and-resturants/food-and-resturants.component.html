@@ -8,9 +8,7 @@
     </tr>
   </table>
   <br> <br><br><br> <br><br> -->
-<!-- <body style="margin: 0;"> -->
-
-<body style="margin: 0;">
+<body>
     <nav>
     <ul>
       <li><a style="text-decoration: none;" href="">Home</a></li>
@@ -19,7 +17,7 @@
     </ul>
   </nav>
 
-  <table border="1px">
+  <!-- <table border="1px">
   <tr *ngIf="this.enteredRecipe!==undefined">
 
     <td >{{this.enteredRecipe.name}}</td>
@@ -27,7 +25,7 @@
     <td>{{this.enteredRecipe.price}}</td>
 
       </tr>
-    </table>
+    </table> -->
     <br> <br><br><br> <br><br>
   <div id="main">
   <div class="maindiv">
@@ -39,68 +37,98 @@
   <table align="center">
         <tr>
           <td>
-            <div>
-  <a text-align="center" width="120" height="300px">
+            <div class="card">
+           <a text-align="center" width="100%">
               <img class="images" src="assets/Img/bir.jpg" alt="Biryani"></a>
-              <p class="caption">biryani</p></div>
-          </td>
+              <p id="caption">Biryani</p>
+              <!-- <p class="title">CEO & Founder</p> -->
+               <p>Some text that describes me</p>
+              <p>example@example.com</p>
+               <p><button class="button">Order It</button></p>
+               </div>
+       </td>
 
 
-          <td><div>
-            <a text-align="center" width="120" height="300px">
+          <td><div class="card">
+            <a text-align="center" width="100%">
             <img class="images" src="assets/Img/idly.jpg" alt="Idly"></a>
-            <p class="caption">Idly</p>
+            <p id="caption">Idly</p>
+            <p>Some text that describes me</p>
+            <p>example@example.com</p>
+            <p><button class="button">Order It</button></p>
             </div>
           </td>
 
 
 
-    <td><div>
-      <a  text-align="center" width="120" height="300px">
+    <td><div class="card">
+      <a  text-align="center" width="100%">
             <img class="images" src="assets/Img/chgr.jpg" alt="Chicken Grill"></a>
-            <p class="caption">Chicken_Grill</p>
+            <p id="caption">Chicken_Grill</p>
+            <p>Some text that describes me</p>
+            <p>example@example.com</p>
+            <p><button class="button">Order It</button></p>
             </div></td></tr>
 
 
- <tr><td><div>
-    <a text-align="center" width="120" height="300px">
+ <tr><td><div class="card">
+    <a text-align="center" width="100%">
           <img class="images" src="assets/Img/ds.jpg" alt="Dosa"></a>
-          <p class="caption">Dosa</p>
+          <p id="caption">Dosa</p>
+          <p>Some text that describes me</p>
+          <p>example@example.com</p>
+          <p><button class="button">Order It</button></p>
           </div></td>
 
 
 
-          <td><div>
-          <a  text-align="center" width="120" height="300px">
+          <td><div class="card">
+          <a  text-align="center" width="100%">
           <img class="images" src="assets/Img/ice.jpg" alt="Ice-Creams"></a>
-          <p class="caption">Ice-Creams</p></div>
+          <p id="caption">Ice-Creams</p>
+          <p>Some text that describes me</p>
+          <p>example@example.com</p>
+          <p><button class="button">Order It</button></p></div>
           </td>
 
-          <td><div>
-            <a text-align="center" width="120" height="300px">
-            <img class="images" src="assets/Img/thiksh.jpg" alt="Thick-Shakes">,</a>
-            <p class="caption">Thick-shake</p></div>
+          <td><div  class="card">
+            <a text-align="center" width="100%">
+            <img class="images" src="assets/Img/thiksh.jpg" alt="Thick-Shakes"></a>
+            <p id="caption">Thick-shake</p>
+            <p>Some text that describes me</p>
+            <p>example@example.com</p>
+            <p><button class="button">Order It</button></p></div>
           </td></tr>
 
 
-  <tr><td><div>
-            <a text-align="center" width="120" height="300px">
-            <img class="images" src="assets/Img/piz.jpg" alt="Pizza">
-            </a>
-            <p class="caption">Pizza</p>
-            </div></td>
+  <tr><td><div class="card">
+            <a text-align="center" width="100%">
+            <img class="images" src="assets/Img/piz.jpg" alt="Pizza"></a>
+                <p id="caption">Pizza</p>
+            <p>Some text that describes me</p>
+            <p>example@example.com</p>
+            <p><button class="button">Order It</button></p>
+        </div>
+          </td>
 
-          <td><div>
-  <a text-align="center" width="120" height="300px">
+          <td><div class="card">
+  <a text-align="center" width="100%">
             <img class="images" src="assets/Img/bur.jpeg" alt="Burger"></a>
-            <p class="caption">Burger</p></div>
+            <p id="caption">Burger</p>
+            <p>Some text that describes me</p>
+            <p>example@example.com</p>
+            <p><button class="button">Order It</button></p>
+    </div>
           </td>
 
 
-        <td><div>
-          <a text-align="center" width="120" height="300px">
+        <td><div class="card">
+          <a text-align="center" width="100%">
           <img class="images" src="assets/Img/sandwh.jpg" alt="Sandwich"></a>
-          <p class="caption">Sandwich</p>
+          <p id="caption">Burger</p>
+          <p>Some text that describes me</p>
+          <p>example@example.com</p>
+          <p><button class="button">Order It</button></p>
           </div></td>
         </tr>
       </table>
